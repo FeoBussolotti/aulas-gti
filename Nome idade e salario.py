@@ -1,0 +1,6 @@
+nome = (input ('Qual o seu nome?'))
+idade = int (input ('Qual a sua idade?'))
+salario = float (input ('Qual o seu salário?'))
+salarioStr = str('%.2f'%salario)
+salarioReal = salarioStr.replace('.',',')
+print ('Olá %s, você tem %d anos e seu salário é de R$%s!' % (nome, idade, salarioReal))

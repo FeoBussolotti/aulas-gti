@@ -1,0 +1,6 @@
+valorProduto = float (input('Digite o valor do produto:\n'))
+valorPagto = float (input('Digite o valor pago em dinheiro:\n'))
+troco = (valorPagto - valorProduto)
+trocoStr = str ('%.2f'%troco)
+trocoReal = trocoStr.replace('.',',')
+print ('O troco será de: R$%s'%trocoReal, '!')
